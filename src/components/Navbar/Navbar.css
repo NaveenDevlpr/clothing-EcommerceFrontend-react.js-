@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico');
+
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    width: 100%;
+   
+}
+
+.nav-links ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.nav-links ul li{
+    font-family: 'Poppins';
+    font-size: 20px;
+    padding: 0px 40px;
+    font-weight: 500;
+    color: rgb(232, 169, 169);
+    cursor: pointer;
+    transform: scale(1, 1);
+    transition: 0.3s all ease-in-out;
+
+}
+
+.logo{
+    font-family: 'Pacifico';
+    font-size: 3rem;
+    letter-spacing: 3px;
+    color:rgb(178, 184, 163) ;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+
+}
+.logo:hover{
+    
+    transform: scale(1.1, 1.1);
+
+}
+.button-container{
+  color: #fff;
+  background: rgb(178, 184, 163) ;
+  width: 150px;
+  height: 50px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins';
+  font-size: 14px;
+  transition: 0.3s all ease-in-out;
+
+}
+
+.nav-links li:hover{
+    transform: scale(1.1, 1.1);
+
+}
+
+.button-container:hover{
+    transform: scale(1.1, 1.1);
+}
+
+hr{
+    display:block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgb(178, 184, 163) ;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: -20px;
+    opacity: 0.5;
+
+}
+
